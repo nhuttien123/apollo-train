@@ -63,4 +63,13 @@ $(document).ready(function () {
     prevArrow: `<button class="feedback-prev feedback-btn"> <i class="fas fa-chevron-left"></i></button>`,
     nextArrow: `<button class="feedback-next feedback-btn"> <i class="fas fa-chevron-right"></i></button>`,
   });
+
+  if ($(".scroll-to").length > 0) {
+    $(".scroll-to").click(function () {
+      $("#story")[0].scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    });
+  }
 });
