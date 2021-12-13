@@ -64,8 +64,8 @@ $(document).ready(function () {
     nextArrow: `<button class="feedback-next feedback-btn"> <i class="fas fa-chevron-right"></i></button>`,
   });
 
-  if ($(".scroll-to").length > 0) {
-    $(".scroll-to").click(function () {
+  if ($(".arrow-down").length > 0) {
+    $(".arrow-down").click(function () {
       $("#story")[0].scrollIntoView({
         behavior: "smooth",
         block: "start",
