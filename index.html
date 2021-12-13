@@ -10,7 +10,9 @@
       rel="stylesheet"
       href="./fonts/fontawesome-free-5.15.4-web/css/all.css"
     />
+
     <link rel="stylesheet" type="text/css" href="./libs/slick.css" />
+    <link rel="stylesheet" href="./libs/animate.css" />
     <link rel="stylesheet" href="./style/index.css" />
   </head>
   <body>
@@ -22,8 +24,8 @@
               <img src="./images/logo-white.svg" alt="" />
             </div>
             <div class="header-items">
-              <ul>
-                <li>
+              <ul class="menu">
+                <li class="">
                   <a href="">Về chúng tôi</a>
                   <ul class="sub-menu">
                     <li>
@@ -92,15 +94,19 @@
           </header>
         </div>
         <div class="js-banner-slider banner-slider">
-          <div class="slider-item fade1">
-            <img src="./images/Frame_1.gif" alt="" />
+          <div class="slider-item">
+            <div class="item-img">
+              <img src="./images/Frame_1.gif" alt="" />
+            </div>
           </div>
           <div class="slider-item">
-            <img src="./images/Frame_2.gif" alt="" />
+            <div class="item-img">
+              <img src="./images/Frame_2.gif" alt="" />
+            </div>
           </div>
         </div>
         <div class="arrow-down">
-          <a href="#">
+          <a href="/#story">
             <i class="fas fa-chevron-down"></i>
           </a>
         </div>
@@ -109,10 +115,499 @@
           <img src="./images/wave.svg" alt="" />
         </div>
       </section>
+      <section class="section-story animatedParent" id="story">
+        <div class="big-circle animated fadeInUp"></div>
+        <div class="icon">
+          <div class="cloud">
+            <img src="./images/cloud.svg" alt="" />
+          </div>
+          <div class="fly">
+            <img src="./images/kkc.svg" alt="" />
+          </div>
+        </div>
+        <div class="story-items container">
+          <div class="fadeIn animated section-title">
+            Apollo English &
+            <p>Câu chuyện từ 1995!</p>
+          </div>
+          <div class="js-story-slider story-slider fadeIn animated">
+            <div class="slider-items">
+              <div class="content">
+                <div class="img-item">
+                  <img src="./images/story-1.png" alt="" />
+                </div>
+                <div class="content-item">
+                  <div class="content-title">Thành lập</div>
+                  <div class="bottom-bar"></div>
+                  <div class="content-text">
+                    Trung tâm tiếng Anh Apollo đầu tiên được thành lập bởi 2 nhà
+                    sáng lập
+                    <span>Khalid Muhmood & Arabella Peters </span>với sự chứng
+                    kiến của đại diện Hoàng Gia Anh và Bộ Giáo dục & Đào tạo
+                    Việt Nam.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider-items">
+              <div class="content">
+                <div class="img-item">
+                  <img src="./images/story-2.png" alt="" />
+                </div>
+                <div class="content-item">
+                  <div class="content-title">Đối tác chiến lược</div>
+                  <div class="bottom-bar"></div>
+                  <div class="content-text">
+                    Trở thành đối tác chiến lược của
+                    <span>Đài truyền hình Việt Nam</span> với vai trò cố vấn cho
+                    những chương trình giáo dục danh tiếng như: Đường lên đỉnh
+                    Olympia, Rung chuông vàng...
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-items">
+              <div class="content">
+                <div class="img-item">
+                  <img src="./images/story-3.png" alt="" />
+                </div>
+                <div class="content-item">
+                  <div class="content-title">Trung tâm ở phía Nam</div>
+                  <div class="bottom-bar"></div>
+                  <div class="content-text">
+                    Mở rộng hệ thống
+                    <span
+                      >trung tâm sang các tỉnh ở phía Nam với trung tâm đầu tiên
+                      tại Tp.Hồ Chí Minh</span
+                    >
+                    dưới sự chứng kiến của đại diện Hoàng Gia Anh
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-items">
+              <div class="content">
+                <div class="img-item">
+                  <img src="./images/story-4.png" alt="" />
+                </div>
+                <div class="content-item">
+                  <div class="content-title">Thành viên Hoàng gia</div>
+                  <div class="bottom-bar"></div>
+                  <div class="content-text">
+                    Đạt mốc 50+ trung tâm trên khắp Việt Nam và được vinh danh
+                    là <span>“Doanh nghiệp quản trị tốt nhất Việt Nam”</span> do
+                    Deloitte trao tặng
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-items">
+              <div class="content">
+                <div class="img-item">
+                  <img src="./images/story-5.png" alt="" />
+                </div>
+                <div class="content-item">
+                  <div class="content-title">Đào tạo công dân toàn cầu</div>
+                  <div class="bottom-bar"></div>
+                  <div class="content-text">
+                    Apollo được vinh danh
+                    <span>“Tổ chức đào tạo Anh ngữ của năm”</span> tại
+                    EducationInvestor Asia Awards với vai trò tiên phong mang
+                    đến trẻ em Việt Nam chương trình đào tạo công dân toàn cầu
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-items">
+              <div class="content">
+                <div class="img-item">
+                  <img src="./images/story-6.png" alt="" />
+                </div>
+                <div class="content-item">
+                  <div class="content-title">50+ trung tâm</div>
+                  <div class="bottom-bar"></div>
+                  <div class="content-text">
+                    Đạt mốc 50+ trung tâm trên khắp Việt Nam và được vinh danh
+                    là <span>“Doanh nghiệp quản trị tốt nhất Việt Nam”</span> do
+                    Deloitte trao tặng
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="story-year">
+          <div class="year-dots">
+            <div
+              class="js-dot-item dot-item animated fadeIn delay-750"
+              data="0"
+            >
+              <img src="./images/avt.png" alt="" />
+              <span>1995</span>
+            </div>
+            <div
+              class="js-dot-item dot-item animated fadeIn delay-1000"
+              data="1"
+            >
+              <img src="./images/avt2.png" alt="" />
+              <span>1996</span>
+            </div>
+            <div
+              class="js-dot-item dot-item animated fadeIn delay-1250"
+              data="2"
+            >
+              <img src="./images/avt3.png" alt="" />
+              <span>2002</span>
+            </div>
+            <div
+              class="js-dot-item dot-item animated fadeIn delay-1500"
+              data="3"
+            >
+              <img src="./images/avt4.png" alt="" />
+              <span>2006</span>
+            </div>
+            <div
+              class="js-dot-item dot-item animated fadeIn delay-1750"
+              data="4"
+            >
+              <img src="./images/avt5.png" alt="" />
+              <span>2007</span>
+            </div>
+            <div
+              class="js-dot-item dot-item animated fadeIn delay-2000"
+              data="5"
+            >
+              <img src="./images/avt6.png" alt="" />
+              <span>2021</span>
+            </div>
+          </div>
+          <div class="fly-to animated fadeInLeft slow go" data="0">
+            <img src="./images/avt6.svg" alt="" />
+          </div>
+          <div class="wave">
+            <img src="./images/moutain-history.svg" alt="" />
+          </div>
+          <div class="moutain animated delay-500 bounceInUp">
+            <img src="./images/moutain.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="section-tab animatedParent">
+        <div class="border-top"></div>
+        <div class="container">
+          <div class="box-container">
+            <ul class="list-tab-btn animated delay-50 fadeIn">
+              <li class="tab-btn">
+                <div class="connect-line animated delay-50 fadeInDown"></div>
+                Tầm nhìn
+              </li>
+              <li class="tab-btn">
+                <div class="connect-line animated delay-50 fadeInDown"></div>
+                Sứ mệnh
+              </li>
+              <li class="tab-btn">
+                <div class="connect-line animated delay-50 fadeInDown"></div>
+                Giá trị
+              </li>
+              <li class="tab-btn">
+                <div class="connect-line animated delay-50 fadeInDown"></div>
+                Cam kết
+              </li>
+            </ul>
+
+            <div class="js-tab">
+              <div class="box-tabs animated delay-50 fadeIn">
+                <div class="tab-items-container">
+                  <div class="item-content">
+                    <span
+                      >Generations of confident children fulfilling their
+                      potential in a changing world</span
+                    >
+                  </div>
+                  <div class="item-img big-img">
+                    <img src="./images/tab1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="box-tabs animated delay-50 fadeIn">
+                <div class="tab-items-container tab2">
+                  <div class="item-content tab2">
+                    <span
+                      >Bring ging english to life through real-world
+                      learning</span
+                    >
+                  </div>
+                  <div class="item-img">
+                    <img src="./images/Frame_1.gif" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="box-tabs animated delay-50 fadeIn">
+                <div class="tab-items-container tab3">
+                  <div class="item-img tab3">
+                    <img src="./images/tab3.png" alt="" />
+                  </div>
+                  <div class="item-content tab3">
+                    <span>
+                      <ul>
+                        <li>Passion</li>
+                        <li>Innovation</li>
+                        <li>Partnership</li>
+                        <li>Accountability</li>
+                        <li>Integrity</li>
+                      </ul>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="box-tabs animated delay-50 fadeIn">
+                <div class="tab-items-container tab4">
+                  <div class="item-img tab4">
+                    <img src="./images/tab4.png" alt="" />
+                  </div>
+                  <div class="item-content tab4">
+                    <span>
+                      <ul>
+                        <li>Guaranteed academic success</li>
+                        <li>Confidence & fluency</li>
+                        <li>Impactful, effective learning</li>
+                        <li>Parent partnership</li>
+                        <li>International experts</li>
+                        <li>Future skills</li>
+                      </ul>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-classroom animatedParent">
+        <div class="wave-top">
+          <img src="./images/wave-blue.svg" alt="" />
+        </div>
+        <div class="container">
+          <div class="section-title">Cơ sở vật chất</div>
+          <div class="classroom-container">
+            <div class="card-classroom zoom animated fadeIn">
+              <img src="./images/class1.png" alt="" />
+              <div class="hide-label">Tên phòng học</div>
+            </div>
+            <div class="card-classroom animated fadeIn delay-500">
+              <img src="./images/class2.png" alt="" />
+            </div>
+          </div>
+          <div class="classroom-container">
+            <div class="card-classroom animated fadeIn delay-750">
+              <img src="./images/class3.png" alt="" />
+            </div>
+            <div class="card-classroom animated fadeIn delay-1000">
+              <img src="./images/class4.png" alt="" />
+            </div>
+            <div class="card-classroom animated fadeIn delay-1250">
+              <img src="./images/class5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-feedback animatedParent">
+        <div class="wave-top">
+          <img src="./images/wave-feedback.svg" alt="" />
+        </div>
+        <div class="container">
+          <div class="section-title">
+            Hàng triệu phụ huynh đã lựa chọn Apollo English
+            <p>để con học cùng niềm cảm hứng!</p>
+            <div class="star animated fadeIn delay-500">
+              <img src="./images/star.svg" alt="" />
+            </div>
+            <div class="face animated fadeIn delay-500">
+              <img src="./images/face.svg" alt="" />
+            </div>
+          </div>
+          <div
+            class="js-feedback-slider feedback-slider animated fadeIn delay-500"
+          >
+            <div class="slider-item">
+              <div class="content">
+                <div class="feedback-box">
+                  Buổi học đầu tiên, nhìn thấy bảng tương tác thông minh em rất
+                  ấn tượng. Kiểu rất wow. Mỗi bài học đều thú vị, không bị nhàm
+                  chán. Em học được thêm rất nhiều kiến thức bổ ích về khoa học
+                  này, về nghệ thuật này. Trên lớp các bạn phục em lắm luôn.
+
+                  <div class="dots">
+                    <img src="./images/dots.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="./images/4.jpg" alt="" />
+              </div>
+            </div>
+            <div class="slider-item">
+              <div class="content">
+                <div class="feedback-box">
+                  Buổi học đầu tiên, nhìn thấy bảng tương tác thông minh em rất
+                  ấn tượng. Kiểu rất wow. Mỗi bài học đều thú vị, không bị nhàm
+                  chán. Em học được thêm rất nhiều kiến thức bổ ích về khoa học
+                  này, về nghệ thuật này. Trên lớp các bạn phục em lắm luôn.
+                  <div class="dots">
+                    <img src="./images/dots.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="./images/3.jpg" alt="" />
+              </div>
+            </div>
+            <div class="slider-item">
+              <div class="content">
+                <div class="feedback-box">
+                  Buổi học đầu tiên, nhìn thấy bảng tương tác thông minh em rất
+                  ấn tượng. Kiểu rất wow. Mỗi bài học đều thú vị, không bị nhàm
+                  chán. Em học được thêm rất nhiều kiến thức bổ ích về khoa học
+                  này, về nghệ thuật này. Trên lớp các bạn phục em lắm luôn.
+                  <div class="dots">
+                    <img src="./images/dots.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="./images/2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="slider-item">
+              <div class="content">
+                <div class="feedback-box">
+                  Buổi học đầu tiên, nhìn thấy bảng tương tác thông minh em rất
+                  ấn tượng. Kiểu rất wow. Mỗi bài học đều thú vị, không bị nhàm
+                  chán. Em học được thêm rất nhiều kiến thức bổ ích về khoa học
+                  này, về nghệ thuật này. Trên lớp các bạn phục em lắm luôn.
+                  <div class="dots">
+                    <img src="./images/dots.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="./images/1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-about animatedParent">
+        <div class="big-circle-yellow animated fadeInUp delay-250">
+          <img src="./images/yellow-circle.svg" alt="" />
+        </div>
+        <div class="wave-top">
+          <img src="./images/wave-blue.svg" alt="" />
+        </div>
+
+        <div class="container">
+          <div class="about-list">
+            <div class="about-img animated fadeInLeft">
+              <img src="./images/about-icon.svg" alt="" />
+            </div>
+
+            <ul class="about-item">
+              <li class="animated fadeInRight delay-250">
+                <img src="./images/about-item1.svg" alt="" />
+                <div class="content">
+                  Tổ chức giáo dục Anh Quốc <br />
+                  hơn <span>25 năm kinh nghiệm tại Việt Nam</span>
+                </div>
+              </li>
+              <li class="animated fadeInRight delay-500">
+                <img src="./images/about-item2.svg" alt="" />
+                <div class="content">
+                  Giáo trình độc quyền <br />
+                  <span>phù hợp lứa tuổi và bài thi quốc tế</span>
+                </div>
+              </li>
+              <li class="animated fadeInRight delay-750">
+                <img src="./images/about-item3.svg" alt="" />
+                <div class="content">
+                  Phương pháp giảng dạy <br />
+                  <span>tiêu chuẩn quốc tế</span>
+                </div>
+              </li>
+              <li class="animated fadeInRight delay-1000">
+                <img src="./images/about-item4svg.svg" alt="" />
+                <div class="content">
+                  Hệ thống quản lý học tập hàng đầu<br />
+                  <span>theo sát lộ trình học của con</span>
+                </div>
+              </li>
+              <li class="animated fadeInRight delay-1250">
+                <img src="./images/about-item5.svg" alt="" />
+                <div class="content">
+                  100% môi trường tiếng Anh <br />
+                  <span>với giáo viên nước ngoài</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer class="animatedParent">
+        <div class="container-lg">
+          <div class="form-check-free">
+            <div class="small-blue-circle animated fadeInLeft"></div>
+            <form action="animated fadeIn">
+              <label for=""
+                >Tư vấn & kiểm tra <br />
+                <span>miễn phí</span></label
+              >
+              <div class="form-input">
+                <label for="">Họ và tên</label>
+                <input type="text" placeholder="Nhập họ và tên phụ huynh" />
+              </div>
+              <div class="form-input">
+                <label for="">Số điện thoại</label>
+                <input type="text" placeholder="Nhập số điện thoại" />
+              </div>
+              <div class="form-input">
+                <label for="">Email</label>
+                <input type="text" placeholder="Nhập email" />
+              </div>
+
+              <button type="button">Đăng ký ngay</button>
+            </form>
+          </div>
+        </div>
+        <div class="container-lg">
+          <div class="footer-items">
+            <div class="logo footer-content">
+              <img src="./images/logo-footer.svg" alt="" />
+            </div>
+            <div class="footer-content">
+              <span>Liên hệ</span>
+              <span>Tuyển dụng</span>
+            </div>
+            <div class="footer-content">
+              <span>Teaching at Apollo</span>
+              <span>Đối tác (ASP)</span>
+            </div>
+            <div class="footer-content">
+              <span>Theo dõi chúng tôi tại</span>
+              <span class="list-social">
+                <img src="./images/social1.svg" alt="" />
+                <img src="./images/social2.svg" alt="" />
+                <img src="./images/social3.svg" alt="" />
+              </span>
+            </div>
+          </div>
+          <div class="copy-right">© Copryright 2021, Apollo English</div>
+        </div>
+      </footer>
     </main>
     <script type="text/javascript" src="./libs/jquey.js"></script>
     <script type="text/javascript" src="./libs/migrate.js"></script>
     <script type="text/javascript" src="./libs/slick.js"></script>
+    <script type="text/javascript" src="./libs/animte.js"></script>
     <script type="text/javascript" src="./js/BannerSlider.js"></script>
   </body>
 </html>
