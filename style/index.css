@@ -219,6 +219,7 @@ main {
   display: block;
   width: 100px;
   text-align: center;
+  cursor: pointer;
 }
 
 .section-header .arrow-down a i {
