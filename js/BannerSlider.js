@@ -1,11 +1,13 @@
 $(document).ready(function () {
-  $(".js-banner-slider").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1900,
-    fade: true,
-  });
+  if ($(".js-banner-slider").length > 0) {
+    $(".js-banner-slider").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1900,
+      fade: true,
+    });
+  }
 
   if ($(".js-story-slider").length > 0) {
     for (let i = 0; i < $(".js-dot-item").length; i++) {
@@ -18,14 +20,16 @@ $(document).ready(function () {
         });
     }
 
-    $(".js-story-slider").slick({
-      infinite: false,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      fade: true,
-    });
+    if ($(".js-story-slider").length > 0) {
+      $(".js-story-slider").slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        fade: true,
+      });
+    }
 
     $(".js-story-slider").on(
       "beforeChange",
@@ -69,7 +73,24 @@ $(document).ready(function () {
       $("#story")[0].scrollIntoView({
         behavior: "smooth",
         block: "start",
+        inline: "nearest",
       });
+    });
+  }
+
+  if ($(".cta").length > 0) {
+    let isShow = false;
+    $(".cta").on("click", function () {
+      if (isShow == true) {
+        isShow = false;
+      } else {
+        isShow = true;
+      }
+      if (isShow == true) {
+        $(".cta").addClass("active");
+      } else {
+        $(".cta").removeClass("active");
+      }
     });
   }
 });
